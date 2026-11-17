@@ -1,7 +1,5 @@
 # 🛍️ Katalog Produk — JavaFX 
 
-<img width="1600" height="844" alt="WhatsApp Image 2026-11-18 at 05 33 12" src="https://github.com/user-attachments/assets/0d139898-2bfa-4316-a23f-59a01f6fde53" />
-
 ## ✨ Fitur Utama
 
 | Fitur | Operasi | Deskripsi |
@@ -44,7 +42,30 @@ src/
 
 ## Cara Menjalankan Aplikasi
 
-1. **Unduh / Clone Repository**
+1. **Clone Repository**
    Buka terminal atau Command Prompt, lalu jalankan perintah berikut:
-   ```bash
-   git clone [https://github.com/tikanovianti616/Katalog-Produk-JavaFx.git](https://github.com/tikanovianti616/Katalog-Produk-JavaFx.git)
+   git clone https://github.com/tikanovianti616/Katalog-Produk-JavaFx.git
+
+2. **Masuk ke Folder Project**
+    Setelah proses clone selesai, arahkan terminal ke dalam folder proyek:
+    cd Katalog-Produk-JavaFx
+
+3. **Jalankan Aplikasi**
+    Anda bisa menjalankan aplikasi ini melalui salah satu dari dua cara berikut:
+
+    **Opsi A: Langsung Lewat Terminal**
+    Pastikan terminal berada di dalam folder Katalog-Produk-JavaFx, lalu jalankan perintah:
+    mvn clean javafx:run
+
+    Tunggu hingga proses build selesai. Jika berhasil, jendela aplikasi Katalog Produk akan langsung terbuka dan siap digunakan.
+
+    **Opsi B: Melalui Apache NetBeans**
+    1) Buka aplikasi Apache NetBeans, lalu pilih File → Open Project dan pilih folder Katalog-Produk-JavaFx.
+    2) Tunggu hingga proses pemuatan dependency Maven selesai.
+    3) Atur konfigurasi Run pada NetBeans:
+        - Klik kanan pada nama project (KatalogProduk) di panel kiri → pilih Properties.
+        - Pilih menu Actions di sebelah kiri → klik Run project pada daftar Actions.
+        - Pada kolom Execute Goals, ketik clean javafx:run (atau javafx:run), lalu klik OK.
+    
+4. Jalankan aplikasi dengan menekan tombol Run Project (ikon segitiga hijau / F6), atau klik kanan pada MainApp.java → Run File (Shift + F6).
+    Catatan: Anda tidak perlu membuat database secara manual. File database lokal (data/katalog.db) akan otomatis terbentuk saat aplikasi pertama kali dijalankan.
