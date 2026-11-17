@@ -39,7 +39,6 @@ src/
             ├── katalog.fxml             # Struktur layout GUI (Scene Builder)
             └── styles/
                 └── app.css              # Styling kartu produk, tombol, dan tipografi
-```text
 
 ## Cara Menjalankan Aplikasi
 
