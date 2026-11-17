@@ -39,3 +39,10 @@ src/
             ├── katalog.fxml             # Struktur layout GUI (Scene Builder)
             └── styles/
                 └── app.css              # Styling kartu produk, tombol, dan tipografi
+
+## Cara Menjalankan Aplikasi
+
+1. **Unduh / Clone Repository**
+   Buka terminal atau Command Prompt, lalu jalankan perintah berikut:
+   ```bash
+   git clone [https://github.com/tikanovianti616/Katalog-Produk-JavaFx.git](https://github.com/tikanovianti616/Katalog-Produk-JavaFx.git)
