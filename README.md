@@ -1,5 +1,7 @@
 # 🛍️ Katalog Produk — JavaFX 
 
+<img width="1600" height="844" alt="WhatsApp Image 2026-11-18 at 05 33 12" src="https://github.com/user-attachments/assets/0d139898-2bfa-4316-a23f-59a01f6fde53" />
+
 ## ✨ Fitur Utama
 
 | Fitur | Operasi | Deskripsi |
