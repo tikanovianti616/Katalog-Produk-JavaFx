@@ -1,20 +1,4 @@
-# 🛍️ Katalog Produk UPI Store — JavaFX GUI (Level 3)
-
-![Java](https://img.shields.io/badge/Java-JDK%2026-orange?style=for-the-badge&logo=openjdk)
-![JavaFX](https://img.shields.io/badge/JavaFX-21-blue?style=for-the-badge)
-![SQLite](https://img.shields.io/badge/SQLite-3.49-003B57?style=for-the-badge&logo=sqlite)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-
-> Aplikasi desktop manajemen katalog produk berbasis **JavaFX** dan **SQLite** dengan antarmuka modern berbasis kartu (*card layout*) serta dukungan operasi **CRUD** (*Create, Read, Update, Delete*) secara penuh.
-
----
-
-## 👤 Identitas Mahasiswa
-* **Nama:** Tika Novianti
-* **NIM:** 2508157
-* **Topik:** Project Pengantar JavaFX GUI — Level 3
-
----
+# 🛍️ Katalog Produk — JavaFX 
 
 ## ✨ Fitur Utama
 
