@@ -39,18 +39,23 @@ src/
             ├── katalog.fxml             # Struktur layout GUI (Scene Builder)
             └── styles/
                 └── app.css              # Styling kartu produk, tombol, dan tipografi
+```
 
 ## Cara Menjalankan Aplikasi
 
 1. **Clone Repository**
    Buka terminal atau Command Prompt, lalu jalankan perintah berikut:
+   ```bash
    git clone https://github.com/tikanovianti616/Katalog-Produk-JavaFx.git
+   ```
 
-2. **Masuk ke Folder Project**
+3. **Masuk ke Folder Project**
     Setelah proses clone selesai, arahkan terminal ke dalam folder proyek:
+   ```bash
     cd Katalog-Produk-JavaFx
+   ```
 
-3. **Jalankan Aplikasi**
+5. **Jalankan Aplikasi**
     Anda bisa menjalankan aplikasi ini melalui salah satu dari dua cara berikut:
 
     **Opsi A: Langsung Lewat Terminal**
@@ -60,12 +65,33 @@ src/
     Tunggu hingga proses build selesai. Jika berhasil, jendela aplikasi Katalog Produk akan langsung terbuka dan siap digunakan.
 
     **Opsi B: Melalui Apache NetBeans**
-    1) Buka aplikasi Apache NetBeans, lalu pilih File → Open Project dan pilih folder Katalog-Produk-JavaFx.
-    2) Tunggu hingga proses pemuatan dependency Maven selesai.
-    3) Atur konfigurasi Run pada NetBeans:
+    1. Buka aplikasi Apache NetBeans, lalu pilih File → Open Project dan pilih folder Katalog-Produk-JavaFx.
+    2. Tunggu hingga proses pemuatan dependency Maven selesai.
+    3. Atur konfigurasi Run pada NetBeans:
         - Klik kanan pada nama project (KatalogProduk) di panel kiri → pilih Properties.
         - Pilih menu Actions di sebelah kiri → klik Run project pada daftar Actions.
         - Pada kolom Execute Goals, ketik clean javafx:run (atau javafx:run), lalu klik OK.
     
-4. Jalankan aplikasi dengan menekan tombol Run Project (ikon segitiga hijau / F6), atau klik kanan pada MainApp.java → Run File (Shift + F6).
+6. Jalankan aplikasi dengan menekan tombol Run Project (ikon segitiga hijau / F6), atau klik kanan pada MainApp.java → Run File (Shift + F6).
     Catatan: Anda tidak perlu membuat database secara manual. File database lokal (data/katalog.db) akan otomatis terbentuk saat aplikasi pertama kali dijalankan.
+
+---
+
+## 📸 Tampilan Aplikasi
+
+### 1. Tampilan Utama & Form Input
+
+<img width="1916" height="1017" alt="input" src="https://github.com/user-attachments/assets/dc406628-c7a5-4c75-a33d-981702ad63a2" />
+
+### 2. Memilih & Mengedit Produk
+
+<img width="1917" height="1013" alt="edit" src="https://github.com/user-attachments/assets/8e3edc23-4f89-4b99-a9bc-36f2112db4cf" />
+        
+### 3. Menghapus Produk
+
+ <img width="1917" height="1017" alt="hapus" src="https://github.com/user-attachments/assets/110ce173-fd20-445c-9c46-9b6824f57f2e" />
+
+### 4. Hasil Akhir Katalog
+
+<img width="1916" height="1015" alt="tampilan akhir" src="https://github.com/user-attachments/assets/8037b552-7d3c-4058-a27e-3d79b8f6b0bf" />
+        
